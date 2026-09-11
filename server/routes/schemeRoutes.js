@@ -5,8 +5,7 @@ const Scheme = require('../models/Scheme');
 const seedSchemes = require('../data/seedSchemes');
 const { notifyUsersOfNewScheme } = require('../services/notificationService');
 
-const AI_SERVICE_URL = 'http://localhost:8000';
-const AI_TIMEOUT_MS = 20000;
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8000';const AI_TIMEOUT_MS = 20000;
 const CATEGORIES = ['General', 'SC', 'ST', 'OBC', 'Women', 'Disabled'];
 const INDIA_STATES = [
   'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa',
