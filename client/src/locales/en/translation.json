@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "findSchemes": "Find schemes",
+    "settings": "Settings",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "greeting": "Hi, {{name}}",
+    "bookmarks": "My bookmarks",
+    "status": "Application status",
+    "help": "Help and FAQs",
+    "openMenu": "Open account menu"
+  },
+  "landing": {
+    "tagline": "A bridge to the government schemes you already qualify for.",
+    "chooseLanguage": "Choose your language",
+    "continueWithoutLogin": "Continue without logging in →",
+    "features": {"discover":"Discover Schemes","discoverText":"Find and explore government schemes across various sectors.","eligibility":"Check Eligibility","eligibilityText":"Know which schemes you are eligible for.","apply":"Apply Online","applyText":"Complete your application quickly and easily.","status":"Track Status","statusText":"Stay updated on your application status."}
+  },
+  "home": {
+    "title": "Find your scheme",
+    "subtitle": "Answer a few questions about yourself and your business idea. We'll check it against real government schemes and explain why each one fits.",
+    "category": "Category",
+    "categoryOptions": {
+      "select": "Select category",
+      "general": "General",
+      "sc": "SC",
+      "st": "ST",
+      "obc": "OBC",
+      "women": "Women",
+      "disabled": "Disabled"
+    },
+    "state": "State",
+    "statePlaceholder": "e.g. Telangana",
+    "businessType": "Business type",
+    "businessTypeOptions": {
+      "select": "Select type",
+      "manufacturing": "Manufacturing",
+      "service": "Service",
+      "retail": "Retail",
+      "agri": "Agriculture"
+      ,"food": "Food processing"
+      ,"textile": "Textiles and handicrafts"
+      ,"transport": "Transport and logistics"
+      ,"technology": "Technology and IT"
+      ,"education": "Education and training"
+      ,"healthcare": "Healthcare"
+      ,"tourism": "Tourism and hospitality"
+      ,"construction": "Construction"
+      ,"other": "Other"
+    },
+    "age": "Age",
+    "agePlaceholder": "e.g. 25",
+    "income": "Annual household income (₹)",
+    "incomePlaceholder": "e.g. 200000",
+    "description": "Describe your business idea",
+    "descriptionPlaceholder": "e.g. I want to start a small textile manufacturing unit in my village",
+    "descriptionHint": "This helps us explain why a scheme fits, not just whether it does.",
+    "submit": "Find schemes",
+    "searching": "Searching…",
+    "loadingMessage": "Checking eligibility rules, then ranking by relevance to your idea…",
+    "noResultsTitle": "No matching schemes",
+    "resultsTitle_one": "{{count}} scheme you may be eligible for",
+    "resultsTitle_other": "{{count}} schemes you may be eligible for",
+    "emptyStateText": "None of our seeded schemes matched these exact details. Try widening your state to a nearby major scheme, or double-check the income and age entered.",
+    "connectionError": "Could not reach the server. Check that the backend is running and try again.",
+    "invalidState": "Choose a state or Union Territory from the suggestions.",
+    "customBusinessType": "Tell us your business type",
+    "customBusinessPlaceholder": "e.g. repair services",
+    "speakDescription": "Speak your business idea"
+  },
+  "nearMiss": {
+    "title": "Almost there",
+    "intro": "These schemes didn't quite match, but you're close — here's what would help."
+  },
+  "explore": {
+    "title": "Explore schemes",
+    "subtitle": "Describe yourself in your own words, or browse the full list of schemes we track.",
+    "smartSearchLabel": "Tell us about yourself and your business idea",
+    "smartSearchPlaceholder": "e.g. I'm a 50 year old general category man starting a dairy farm with 10 buffaloes in Telangana",
+    "smartSearchSubmit": "Find my schemes",
+    "analyzing": "Analyzing…",
+    "smartSearchTooShort": "Tell us a bit more — your age, category, state, and business idea help us find better matches.",
+    "smartResultsTitle_one": "{{count}} scheme matched to what you told us",
+    "smartResultsTitle_other": "{{count}} schemes matched to what you told us",
+    "browseTitle": "Browse all schemes",
+    "searchPlaceholder": "Search by name, ministry, or keyword…",
+    "searchButton": "Search",
+    "loadingSchemes": "Loading schemes…",
+    "noSchemesFound": "No schemes found for that search.",
+    "recentlyViewed": "Recently viewed"
+  },
+  "scheme": {
+    "showDetails": "Show documents & eligibility",
+    "hideDetails": "Hide details",
+    "applyButton": "Apply on official site",
+    "benefit": "Benefit",
+    "seeDetails": "See scheme details",
+    "save": "Save",
+    "saved": "Saved",
+    "documentsRequired": "Documents required",
+    "eligibility": "Eligibility",
+    "whoCanApply": "Who can apply",
+    "category": "Category",
+    "businessType": "Business type",
+    "states": "States",
+    "minAge": "Minimum age",
+    "maxIncome": "Max income",
+    "appliesTo": "Applies to",
+    "newOrExistingSuffix": "businesses",
+    "backToExplore": "← Back to Explore",
+    "loadingDetails": "Loading scheme details…",
+    "notFound": "This scheme could not be found."
+  },
+  "checklist": {
+    "progress": "{{checked}} of {{total}} ready",
+    "saving": "saving…",
+    "loginHint": "Log in to save your document checklist progress."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account, appearance, and language preferences.",
+    "account": "Account",
+    "name": "Name",
+    "email": "Email",
+    "logout": "Log out",
+    "loginPrompt": "Please log in to view your settings.",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "switchToDark": "🌙 Switch to dark",
+    "switchToLight": "☀️ Switch to light",
+    "language": "Language",
+    "languageHint": "Full translations available in English, Hindi, and Telugu. Other languages are in progress and will show English text in the meantime.",
+    "helpCenter": "Help center",
+    "helpCenterText": "For questions about a specific scheme, use the \"Apply on official site\" link on that scheme's card to reach the official government page."
+  },
+  "help": {"title":"Help and FAQs","subtitle":"Quick answers for finding, saving, and applying to government schemes.","faqs":{"info":{"question":"What information do I need?","answer":"Enter your category, state, business type, age, income, and a short description of your idea."},"official":{"question":"Are these schemes official?","answer":"SchemeSetu helps you discover schemes. Always verify eligibility and apply through the official portal."},"save":{"question":"How do I save a scheme?","answer":"Log in and press Save on any scheme card. Saved schemes appear under My bookmarks."},"empty":{"question":"Why are no schemes showing?","answer":"Try a broader description, check spelling, and review the income and age details."},"language":{"question":"Can I use Hindi or Telugu?","answer":"Yes. Change the language from the landing page or Settings."}}},
+  "bookmarks": {"title":"My bookmarks","subtitle":"Your saved schemes, ready when you are.","loginPrompt":"Log in to view saved schemes.","empty":"You have not saved any schemes yet.","explore":"Explore schemes","viewDetails":"View details"},
+  "status": {"title":"Application status","subtitle":"Keep track of applications started through official portals.","emptyTitle":"No applications tracked yet","emptyText":"Open a scheme, apply on its official website, and keep your reference number safe.","explore":"Explore schemes"},
+  "auth": {
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Save schemes, track applications, and pick up where you left off.",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to see your saved schemes and application progress.",
+    "fullName": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "createAccount": "Create account",
+    "creatingAccount": "Creating account…",
+    "login": "Log in",
+    "loggingIn": "Logging in…",
+    "alreadyHaveAccount": "Already have an account?",
+    "logIn": "Log in",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create one",
+    "loginToSave": "Please log in to save schemes.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "disclaimer": "Prototype seeded with 15 verified schemes. Not a substitute for official eligibility confirmation."
+  }
+}
