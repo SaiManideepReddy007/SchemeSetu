@@ -55,6 +55,27 @@ mongoose.connect(process.env.MONGO_URI, {
 
 const schemeRoutes = require('./routes/schemeRoutes');
 app.use('/api', schemeRoutes);
+const axios = require('axios');
+
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8000';
+
+app.post('/api/chat', async (req, res) => {
+  try {
+    const response = await axios.post(
+      `${AI_SERVICE_URL}/api/chat`,
+      req.body,
+      { timeout: 30000 }
+    );
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Chat AI service error:', error.message);
+
+    res.status(503).json({
+      error: 'The AI service is currently unavailable. Please try again shortly.'
+    });
+  }
+});
 
 const authRoutes = require('./routes/authRoutes');
 app.use('/api/auth', authRoutes);
